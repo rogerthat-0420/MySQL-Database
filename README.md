@@ -143,11 +143,3 @@ MUS3RHQ Label supports the following functional requirements:
     SELECT ar.artist_id, ar.artist_name, AVG(cp.ChartPositionNumber) AS AverageChartPosition FROM Artists ar JOIN Album al ON ar.album_id = al.album_id JOIN ChartPosition cp ON al.AlbumID = cp.AlbumID GROUP BY ar.artist_id, ar.artist_name;
     ```
 
-
-----
-# Other Contributors
-
-- [Vidhi Rathore](https://github.com/vidhirathore)
-- [Abraham Paul ELenjical](https://github.com/abracodeabra1)
-- [Manasa Kalaimalai](https://github.com/manasakalaimalai/)
-- [Aadi Deshmukh](https://github.com/dsatrier)
